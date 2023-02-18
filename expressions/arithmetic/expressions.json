@@ -82,5 +82,12 @@
     "answer": "rem(a, b)",
     "correct": false,
     "timestamp": 1676704008048
+  },
+  {
+    "name": "Remainder",
+    "canonical": "a % b",
+    "answer": "a - b*fix(a/b)",
+    "correct": false,
+    "timestamp": 1676704156564
   }
 ]
