@@ -103,5 +103,12 @@
     "answer": "rem(a,b)",
     "correct": false,
     "timestamp": 1676704179059
+  },
+  {
+    "name": "Remainder",
+    "canonical": "a % b",
+    "answer": "a%b",
+    "correct": true,
+    "timestamp": 1676704258805
   }
 ]
