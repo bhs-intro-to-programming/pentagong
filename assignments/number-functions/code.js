@@ -18,10 +18,6 @@ const mod = (a, b) => {
   return a%b
 };
 
-const averageOfTwo = (a, b) => {
-  return a*b
-};
-
 const manhattanDistance = (x1, y1, x2, y2) => {
   const xDistance = Math.abs(x1 - x2);
   const yDistance = Math.abs(y1 - y2);
@@ -33,3 +29,7 @@ const euclideanDistance = (x1, y1, x2, y2) => {
   const yDistance = Math.abs(y1 - y2);
   return Math.sqrt(xDistance*xDistance+yDistance*yDistance);
 };
+
+const distance = (x, y) => {
+  return y-x
+}
