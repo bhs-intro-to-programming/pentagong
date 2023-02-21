@@ -31,5 +31,7 @@ const euclideanDistance = (x1, y1, x2, y2) => {
 };
 
 const distance = (x, y) => {
-  return Math.sqrt(x*x+y*y);
+  let x = 3;
+  let y = 2;
+  return x-y
 };
