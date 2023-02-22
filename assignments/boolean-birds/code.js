@@ -16,3 +16,8 @@
  *   - Globby Birds eat fish, mice, and nuts.
  *
  */
+
+if (x = eatsFish && eatsNuts && eatsWorms && isRed);
+{return isFlobbyBird};
+
+if (x = )
