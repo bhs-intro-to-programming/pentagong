@@ -17,6 +17,6 @@
  *
  */
 
-if (isFlobbyBird == isRed && isSpotted){
+isFlobbyBird == (isRed && isSpotted) {
     return true
 };
