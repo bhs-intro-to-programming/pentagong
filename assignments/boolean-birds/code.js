@@ -21,7 +21,7 @@ const isFlobbyBird = (red, spotted) => {
 }
 
 const isBloggyBird = (red, spotted) => {
-  return red && spotted
+  return red && !spotted
 }
  
   
