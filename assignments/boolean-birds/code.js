@@ -33,5 +33,5 @@ const isGlobbyBird = (red, spotted) => {
 }
  
 const eatsWorms = (red, spotted) => {
-  return !red || !spotted
+  return !red || spotted
 } 
