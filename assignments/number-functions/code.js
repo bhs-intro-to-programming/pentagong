@@ -39,5 +39,5 @@ const averageOfThree = (x, y, z) => {
 };
 
 const distance = (x, y) => {
-  return Math.abs(a - b)
+  return Math.abs(x - y)
 };
