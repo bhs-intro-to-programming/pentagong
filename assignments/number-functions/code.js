@@ -30,8 +30,3 @@ const euclideanDistance = (x1, y1, x2, y2) => {
   return Math.sqrt(xDistance*xDistance+yDistance*yDistance);
 };
 
-const distance = (x, y) => {
-  let x = 3;
-  let y = 2;
-  return x-y;
-};
