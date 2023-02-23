@@ -17,7 +17,4 @@
  *
  */
 
-if (x = eatsFish && eatsNuts && eatsWorms && isRed);
-{return isFlobbyBird};
 
-if (x = )
