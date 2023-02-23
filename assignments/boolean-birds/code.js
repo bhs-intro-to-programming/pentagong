@@ -19,5 +19,5 @@
 
  if(isFlobbyBird==isRed && isSpotted) {
    return true
- }
+ };
   
