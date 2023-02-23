@@ -43,3 +43,7 @@ const eatsNuts = (red, spotted) => {
 const eatsFish = (red, spotted) => {
   return !red || spotted
 }
+
+const eatsMice = (red, spotted) => {
+  return !red || !spotted
+}
