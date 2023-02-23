@@ -30,3 +30,10 @@ const euclideanDistance = (x1, y1, x2, y2) => {
   return Math.sqrt(xDistance*xDistance+yDistance*yDistance);
 };
 
+const averageOfTwo = (x, y) => {
+  return (x+y)/2
+};
+
+const averageOfThree = (x, y) => {
+  return (x+y)/3
+};
