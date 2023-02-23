@@ -37,3 +37,7 @@ const averageOfTwo = (x, y) => {
 const averageOfThree = (x, y, z) => {
   return (x+y+z)/3
 };
+
+const distance = (x, y) => {
+  return Math.abs(a - b)
+};
