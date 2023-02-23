@@ -18,4 +18,4 @@
  */
 
 isFlobbyBird == (isRed && isSpotted)
-    return true;
+    {return true};
