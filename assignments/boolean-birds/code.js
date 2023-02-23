@@ -37,5 +37,5 @@ const eatsWorms = (red, spotted) => {
 } 
 
 const eatsNuts = (red, spotted) => {
-  return !red || spotted
+  return red || !spotted
 }
