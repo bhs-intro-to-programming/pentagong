@@ -49,6 +49,5 @@ const eatsMice = (red, spotted) => {
 }
 
 const isRed = (red) => {
-  'Flobby'= red
-  return red
+  
 }
