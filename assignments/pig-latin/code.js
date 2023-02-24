@@ -32,4 +32,11 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-
+const s = ('phone');
+  s.search(/[aeiou]/)
+  if (s.search(/[aeiou]/)<0){
+    return 
+  }
+  else {
+    return s.substring()+'way'
+  }
