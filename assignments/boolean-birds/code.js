@@ -49,5 +49,5 @@ const eatsMice = (red, spotted) => {
 }
 
 const isRed = (red) => {
-  return red
+  return !red
 }
