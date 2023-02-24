@@ -54,4 +54,6 @@ const isRed = (red) => {
   let Bloggy = red;
   let Flibble = !red;
   let Globby = !red;
+
+  return red
 }
