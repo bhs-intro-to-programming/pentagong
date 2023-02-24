@@ -51,5 +51,6 @@ const eatsMice = (red, spotted) => {
 const isRed = (birdtype) => {
   if (birdtype=='Flobby'||'Bloggy')
   return true
-  else false 
+  if (birdtype=='Flibble'||'Globby') 
+  return false
 }
