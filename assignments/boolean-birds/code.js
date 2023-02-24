@@ -48,6 +48,6 @@ const eatsMice = (red, spotted) => {
   return !red || !spotted
 }
 
-const isRed = ('Flobby') => {
-  return red
+const isRed = ('Flobby') ,{
+  return :red
 }
