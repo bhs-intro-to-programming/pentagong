@@ -54,5 +54,5 @@ const isRed = (red) => {
   let isFlibble = false
   let isGlobby = false
 
-  return red
+  return true
 }
