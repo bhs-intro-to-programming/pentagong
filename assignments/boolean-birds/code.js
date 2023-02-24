@@ -49,7 +49,6 @@ const eatsMice = (red, spotted) => {
 }
 
 const isRed = (red) => {
-  let red = true;
   let Flobby = red;
   let Bloggy = red;
   let Flibble = !red;
