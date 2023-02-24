@@ -49,10 +49,10 @@ const eatsMice = (red, spotted) => {
 }
 
 const isRed = (red) => {
-  let Flobby = red;
-  let Bloggy = red;
-  let Flibble = !red;
-  let Globby = !red;
+  let isFlobby = 'Flobby';
+  let isBloggy = 'Bloggy';
+  let isFlibble = 'Fibble';
+  let isGlobby = 'Globby';
 
   return red
 }
