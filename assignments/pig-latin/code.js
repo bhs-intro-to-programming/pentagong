@@ -33,5 +33,5 @@
 // operator works.
 
 const pigLatin = ('phone');
-  return pigLatin.substring(2)+'ph'+'ay';
+pigLatin.substring(2)+'ph'+'ay';
   
