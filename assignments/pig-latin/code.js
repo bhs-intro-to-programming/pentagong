@@ -33,5 +33,4 @@
 // operator works.
 
 const pigLatin = ('phone');
-pigLatin.substring(2)+'ph'+'ay';
-  
+s.search(/[aeiou]/)
