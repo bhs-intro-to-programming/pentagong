@@ -49,5 +49,5 @@ const eatsMice = (red, spotted) => {
 }
 
 const isRed = (nuts, spotted, worms, red) => {
-  return red == (worms && spotted) || (nuts && !spotted) 
+  return red = (worms && spotted) || (nuts && !spotted) 
 }
