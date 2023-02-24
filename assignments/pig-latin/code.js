@@ -33,10 +33,5 @@
 // operator works.
 
 const pigLatin = ('phone');
-  s.search(/[aeiou]/)
-  if (s.search(/[aeiou]/)<0){
-    return 
-  }
-  else {
-    return pigLatin.substring()+'way'
+  {return pigLatin.search(/[aeiou]/)
   }
