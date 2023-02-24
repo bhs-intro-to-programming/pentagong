@@ -49,7 +49,7 @@ const eatsMice = (red, spotted) => {
 }
 
 const isRed = (a, red) => {
-  if a==red
+  if (a==red)
   return true
   else false 
 }
