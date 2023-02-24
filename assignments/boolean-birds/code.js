@@ -48,7 +48,6 @@ const eatsMice = (red, spotted) => {
   return !red || !spotted
 }
 
-const isRed = (red) => {
-  if red return true;
-  if !red return false;
+const isRed = (nuts, spotted, worms) => {
+  return (worms && !spotted) || (nuts && spotted) 
 }
