@@ -55,3 +55,7 @@ const isRed = (name) => {
 const isSpotted = (name) => {
   return name === 'Flobby' || name === 'Flibble'
 }
+
+const isNotRed = (name) => {
+  return name === 'Globby' || name === 'Flibble'
+}
