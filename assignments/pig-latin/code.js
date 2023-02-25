@@ -32,7 +32,7 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-function PigLatin(str) {
-  const consonantCluster = str.match(/^[^aeiou]+/)[0];
+
+  const PigLatin = str.match(/^[^aeiou]+/)[0];{
   return str.substring(consonantCluster.length) + consonantCluster + "ay";
 }
