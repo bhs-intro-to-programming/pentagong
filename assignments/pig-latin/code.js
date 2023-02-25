@@ -32,7 +32,7 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-function PigLatin(str) {
+const PigLatin(str) {
   return str
     .replace(/(^[^aeiou]+)(\w*)/, "$2$1ay");
 }
