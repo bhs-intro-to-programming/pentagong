@@ -32,11 +32,3 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-function PigLatin(str) {
-  const regex = /^[^aeiou]+/g;
-  const consonants = str.match(regex);
-    return str
-      .replace(regex, '')
-      .concat(consonants)
-      .concat('ay');
-  } 
