@@ -36,6 +36,6 @@
 
 const pigLatin = (word) => {
   const v = word.search(/[aeiou]/);
-  return word.substring(v) + word.match(/[hqwrtypsdfgjklzxcvbnm]/) 
+  return word.substring(v) + word.match(/[hqwrtypsdfgjklzxcvbnm]+/) 
   + 'ay'
 };
