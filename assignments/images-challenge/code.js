@@ -23,5 +23,5 @@
  *
  *  clear()
  */
-
-drawFilledCircle ((50, 50, 30, 100, 1))x5;
+const circles
+return drawFilledCircle (50, 50, 30, 100, 1);
