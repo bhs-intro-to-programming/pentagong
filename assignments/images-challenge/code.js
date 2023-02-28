@@ -24,4 +24,5 @@
  *  clear()
  */
 
-drawFilledCircle (50, 50, 30, 100, 1)
+const drawFilledCircle
+return (50, 50, 30, 100, 1)
