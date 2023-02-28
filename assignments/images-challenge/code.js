@@ -24,4 +24,4 @@
  *  clear()
  */
 
-drawFilledCircle (1, 1, red, lineWidth=1);
+drawFilledCircle (2, 1, 100, 1);
