@@ -33,3 +33,13 @@ const oneCircle = (size) => {
 }
 
 oneCircle(54);
+
+const colorCircle = (size) => {
+  drawFilledCircle(width/2, height/3, size, 'red');
+  drawFilledCircle(width/3, height/3, size, 'black');
+  drawFilledCircle(width/6, height/3, size, 'red');
+  drawFilledCircle(width/1.5, height/3, size, 'black');
+  drawFilledCircle(width/1.2, height/3, size, 'red');
+}
+
+colorCircle(54);
