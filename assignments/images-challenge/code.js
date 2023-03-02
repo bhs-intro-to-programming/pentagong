@@ -27,7 +27,7 @@
 const oneCircle = (size) => {
   drawFilledCircle(width/2, height/2, size, 'black');
   drawFilledCircle(width/3, height/2, size, 'black');
-  drawFilledCircle(width/4, height/2, size, 'black');
+  drawFilledCircle(width/5, height/2, size, 'black');
 }
 
 oneCircle(54);
