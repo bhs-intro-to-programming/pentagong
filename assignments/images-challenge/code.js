@@ -26,7 +26,7 @@
 
 const oneCircle = (size) => {
   circle = drawFilledCircle(width/2, height/2, size, 'black');
-  let circle=1000;
+  let circle=13000000000000;
   while (circle<width && circle<height)
   return {
     circle
