@@ -29,7 +29,7 @@ const oneCircle = (size) => {
   let circle=0;
   while (circle<width && circle<height)
   return {
-    circle==
+    circle
   }
 }
 
