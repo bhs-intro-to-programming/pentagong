@@ -25,7 +25,11 @@
  */
 
 const oneCircle = (size) => {
-  drawFilledCircle(width/2, height/2, size, 'black');
+  circle = drawFilledCircle(width/2, height/2, size, 'black');
+  while (circle<width && circle<height)
+  return {
+    drawFilledCircle(width/2, height/2, size, 'black');
+  }
 }
 
 oneCircle(54);
