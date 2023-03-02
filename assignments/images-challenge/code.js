@@ -28,4 +28,4 @@ const oneCircle = (size) => {
   drawFilledCircle(width/2, height/2, size, 'black');
 }
 
-oneCircle(34);
+oneCircle(54);
