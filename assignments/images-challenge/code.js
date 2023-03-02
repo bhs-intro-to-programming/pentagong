@@ -32,7 +32,7 @@ const oneCircle = (size) => {
   drawFilledCircle(width/1.2, height/1.4, size, 'black');
 }
 
-oneCircle(54);
+
 
 const colorCircle = (size) => {
   drawFilledCircle(width/2, height/3, size, 'red');
@@ -42,4 +42,10 @@ const colorCircle = (size) => {
   drawFilledCircle(width/1.2, height/3, size, 'red');
 }
 
-colorCircle(13);
+
+
+const manyCircles = (size) => {
+  while (size<height && size<width){
+    drawFilledCircle(width/2, height/2, size, 'black')
+  }
+}
