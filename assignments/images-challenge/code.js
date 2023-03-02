@@ -26,9 +26,10 @@
 
 const oneCircle = (size) => {
   circle = drawFilledCircle(width/2, height/2, size, 'black');
+  let circle=0;
   while (circle<width && circle<height)
   return {
-    circle
+    circle++;
   }
 }
 
