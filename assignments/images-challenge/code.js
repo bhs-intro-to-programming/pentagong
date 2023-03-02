@@ -24,5 +24,6 @@
  *  clear()
  */
 
-
-drawFilledCircle(50, 50, 30, 100, 1);
+const oneCircle = () => {
+  drawFilledCircle(50, 50, 30, 100, 1);
+}
