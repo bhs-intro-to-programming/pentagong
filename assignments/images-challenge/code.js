@@ -46,6 +46,6 @@ const colorCircle = (size) => {
 
 const manyCircles = (size) => {
   while (size<height && size<width){
-    drawFilledCircle(width/2, height/2, size, 'black')
+    drawFilledCircle(width/2, height/2, size, 'black')++
   }
 }
