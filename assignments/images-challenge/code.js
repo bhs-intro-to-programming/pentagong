@@ -49,3 +49,5 @@ const manyCircles = (size) => {
     drawFilledCircle(width/2, height/2, size, 'black')++
   }
 }
+
+manyCircles(3)
