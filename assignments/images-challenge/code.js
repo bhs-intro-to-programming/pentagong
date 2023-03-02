@@ -42,4 +42,4 @@ const colorCircle = (size) => {
   drawFilledCircle(width/1.2, height/3, size, 'red');
 }
 
-colorCircle(54);
+colorCircle(13);
