@@ -52,4 +52,4 @@ const manyCircles = (size, r) => {
   }
 }
 
-manyCircles(3,40)
+manyCircles(1,40)
