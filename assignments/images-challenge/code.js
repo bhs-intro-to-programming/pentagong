@@ -44,12 +44,12 @@ const colorCircle = (size) => {
 
 
 
-const manyCircles = (size) => {
+const manyCircles = (size, r) => {
   let i = 1;
   while (i < width / size){
-    drawFilledCircle(i * size, height/2, size, 'black')
+    drawFilledCircle(i * size, height/2, r, 'black')
     i++
   }
 }
 
-manyCircles(45)
+manyCircles(45,3)
