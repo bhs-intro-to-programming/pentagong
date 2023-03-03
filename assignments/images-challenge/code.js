@@ -52,7 +52,7 @@ const manyCircles = (size, r) => {
   }
 }
 
-
+manyCircles(45,40)
 
 const manyColors = (size, r) => {
   let i = 1;
@@ -62,4 +62,4 @@ const manyColors = (size, r) => {
     i++
 }
 
-manyColors (45,3)
+manyColors(45,40)
