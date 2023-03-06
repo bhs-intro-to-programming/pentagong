@@ -76,7 +76,7 @@ const forManyCirclesColors = (size) => {
 
 
 
-const concetricCircles = (size) =>{
+const concetric = (size) =>{
   const r = Math.min (width, height)/2;
   const circles = r/size;
   for (let r=0; r>0; r -= circles){
@@ -85,5 +85,5 @@ const concetricCircles = (size) =>{
 
 }
 
-concetricCircles(3)
+concetric(3)
 
