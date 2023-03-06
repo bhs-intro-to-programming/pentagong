@@ -44,13 +44,23 @@ const colorCircle = (size) => {
 
 
 
-const manyCircles = (size, r) => {
+const whileManyCircles = (size, r) => {
   let i = 1;
   while (i < width / size - 1){
     drawFilledCircle(i * size, height/2, r, 'black')
     i++
   }
 }
+
+const forManyCircles = (size) => {
+  const space = Math.floor (width/2*size);
+  for (let i=0; i<space; i++){
+    drawFilledCricle(((width-(space*2*size))/2+size)+i*2*r,
+    height/2, size, 'black')
+  }
+}
+
+forManyCircles(30)
 
 
 
