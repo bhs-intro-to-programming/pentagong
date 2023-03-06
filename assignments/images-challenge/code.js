@@ -66,7 +66,7 @@ const forManyCirclesColors = (size) => {
   const space = Math.floor (width/2*size);
   for (let i=0; i<space; i++){
     drawFilledCircle(((width-((space)*2*size))/2+size)+i*2*size,
-    height/4, size, i% 2=== 0 ? 'black':'red')
+    height/4, size, i% 2=== 0 ? 'black':'green')
   }
 }
 
