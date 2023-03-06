@@ -55,7 +55,7 @@ const whileManyCircles = (size, r) => {
 const forManyCircles = (size) => {
   const space = Math.floor (width/2*size);
   for (let i=0; i<space; i++){
-    drawFilledCircle(((width-((space+50)*2*size))/2+size)+i*2*size,
+    drawFilledCircle(((width-((space-30)*2*size))/2+size)+i*2*size,
     height/2, size, 'black')
   }
 }
