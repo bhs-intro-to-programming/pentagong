@@ -77,7 +77,7 @@ const forManyCirclesColors = (size) => {
 
 
 const concetricCircles = (size) =>{
-  const r = Math.min (width, heigt)/2;
+  const r = Math.min (width, height)/2;
   const circles = r/size;
   for (let r=0; r>0; r -= circles){
     drawCircle(width/2, height/2, r, 'blue', 1)
