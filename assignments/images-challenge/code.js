@@ -74,11 +74,14 @@ forManyCirclesColors(13)
 
 
 
-const manyColors = (size, r) => {
-  let i = 1;
-  while (i< width / size - 1)
-    drawFilledCircle(i*size, height/2, r, 
-    ((int)(Math.random() * 0x1000000)))
-    i++
+
+
+const ConcetricCircles = (size) =>{
+  const r = Math.min (width, heigt)/2;
+  const circles = r/size;
+  for (let r=0; r>0; r -= circles){
+    drawCircle(width/2, height/2, r, 'blue', 1)
+  }
+
 }
 
