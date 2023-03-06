@@ -60,7 +60,7 @@ const forManyCircles = (size) => {
   }
 }
 
-forManyCircles(30)
+forManyCircles(50)
 
 
 
