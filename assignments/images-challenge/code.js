@@ -72,4 +72,3 @@ const manyColors = (size, r) => {
     i++
 }
 
-manyColors(45,40)
