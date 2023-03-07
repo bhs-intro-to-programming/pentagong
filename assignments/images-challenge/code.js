@@ -32,8 +32,6 @@ const oneCircle = (size) => {
   drawFilledCircle(width/1.2, height/1.4, size, 'black');
 }
 
-
-
 const colorCircle = (size) => {
   drawFilledCircle(width/2, height/3, size, 'red');
   drawFilledCircle(width/3, height/3, size, 'black');
@@ -41,8 +39,6 @@ const colorCircle = (size) => {
   drawFilledCircle(width/1.5, height/3, size, 'black');
   drawFilledCircle(width/1.2, height/3, size, 'red');
 }
-
-
 
 const whileManyCircles = (size, r) => {
   let i = 1;
@@ -60,8 +56,6 @@ const forManyCircles = (size) => {
   }
 }
 
-
-
 const forManyCirclesColors = (r) => {
   const space = Math.floor (width/2*r);
   for (let i=0; i<space; i++){
@@ -69,11 +63,6 @@ const forManyCirclesColors = (r) => {
     height/4, r, i% 2=== 0 ? 'black':'green')
   }
 }
-
-
-
-
-
 
 const concentricCircles = (size) => {
   const r = height / 2;
@@ -83,7 +72,3 @@ const concentricCircles = (size) => {
      'black' ? 'green' : 'black');
   }
 };
-
-
-
-
