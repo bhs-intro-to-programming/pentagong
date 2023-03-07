@@ -70,7 +70,7 @@ const forManyCirclesColors = (r) => {
   }
 }
 
-forManyCirclesColors(3)
+forManyCirclesColors(20)
 
 
 
