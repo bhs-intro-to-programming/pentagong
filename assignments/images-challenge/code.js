@@ -70,7 +70,7 @@ const forManyCirclesColors = (r) => {
   }
 }
 
-forManyCirclesColors(20)
+
 
 
 
@@ -83,6 +83,6 @@ const concentricCircles = (size) => {
   }
 };
 
-concentricCircles (34)
+concentricCircles(34)
 
 
