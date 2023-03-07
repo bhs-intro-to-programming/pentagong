@@ -84,6 +84,6 @@ const concentricCircles = (size) => {
   }
 };
 
-concentricCircles(34)
+concentricCircles(33)
 
 
