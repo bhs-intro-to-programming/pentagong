@@ -67,11 +67,11 @@ const whileManyCircles = (size, r) => {
 
 
 
-const concentricCircles = (size) => {
+const concentricCircles = (circles) => {
   const r = height / 2;
-  const circles = r / size;
+  const x = r / circles;
   for (let i = 0; i < circles; i++) {
-    drawFilledCircle(width / 2, height / 2, i * size,
+    drawFilledCircle(width / 2, height / 2, r * (4 - i)/4,
      i % 2 === 0 ? 'green' : 'black');
   }
 };
