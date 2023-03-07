@@ -79,8 +79,8 @@ const concentricCircles = (size) => {
   const r = height / 2;
   const circles = r / size;
   for (let r=0; r > 0; r -= circles) {
-    return {drawFilledCircle(width / 2, height / 2, r,
-     'black' ? 'green' : 'black');}
+    return drawFilledCircle(width / 2, height / 2, r,
+     'black' ? 'green' : 'black');
   }
 };
 
