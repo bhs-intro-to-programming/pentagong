@@ -78,6 +78,8 @@ const forManyCirclesColorsTest = (r) => {
   }
 }
 
+forManyCirclesColorsTest(40)
+
 
 
 
