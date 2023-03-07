@@ -85,5 +85,16 @@ const concetric = (size) =>{
 
 }
 
-concetric(3)
+
+
+const concentricCircles = (size) => {
+  const r = Math.min(width, height) / 2;
+  const step = r / size;
+  for (let r=0; r > 0; r -= step) {
+    drawFilledCircle(width / 2, height / 2, r,
+     'red' ? 'blue' : 'red');
+  }
+};
+
+concentricCircles(3)
 
