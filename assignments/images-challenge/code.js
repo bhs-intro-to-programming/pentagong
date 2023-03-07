@@ -72,7 +72,7 @@ const concentricCircles = (size) => {
   const circles = r / size;
   for (let i = 0; i < circles; i++) {
     drawFilledCircle(width / 2, height / 2, i * size,
-     'black' ? 'green' : 'black');
+     i % 2 === 0 ? 'green' : 'black');
   }
 };
 
