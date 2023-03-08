@@ -83,11 +83,13 @@ const checkerBoard = (x) => {
   const y = Math.floor(size/x);
   for (let i = 0; i < x; i++){
     for (let d = 0; d < x; d++){
-      drawFilledRect(((width - (x*y))/2)+y*d, 
-      ((height+(x*y))/2)+i*y),y,y,y, 
-      (r+d) %2 === 0 ? 'black':'white'
+      drawFilledRect(width/s, height/2(+i*y),y,y,y, 
+      (r+d) %2 === 0 ? 'black':'white')
     }  
   }    
 }
 
 checkerBoard(30)
+
+((width - (x*y))/2)+y*d, 
+      ((height+(x*y))/2)
