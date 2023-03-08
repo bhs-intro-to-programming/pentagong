@@ -76,7 +76,7 @@ const concentricCircles = (circles) => {
   }
 };
 
-concentricCircles(4)
+
 
 const checkerBoard = (x) => {
   const size = height;
