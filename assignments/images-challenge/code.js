@@ -89,4 +89,4 @@ const checkerBoard = (x) => {
   }    
 }
 
-checkerBoard(190,50,70)
+checkerBoard(190,50,70,80)
