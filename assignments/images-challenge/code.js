@@ -86,7 +86,7 @@ const checkerBoard = (x) => {
       ((height+(x*y))/2)+i*y,y,y, 
       (i+d) %2 === 0 ? 'black':'red')
     }  
-  }    
+  }    .
 }
 
 checkerBoard(190,50,70,80)
