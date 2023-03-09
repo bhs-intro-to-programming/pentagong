@@ -79,8 +79,7 @@ const concentricCircles = (circles) => {
 
 
 const checkerBoard = (x) => {
-  const size = height;
-  const y = Math.floor(size/x);
+  const y = Math.floor(height/x);
   for (let i = 0; i < x; i++){
     for (let d = 0; d < x; d++){
       drawFilledRect(((width - (x*y))/2)+y*d, 
