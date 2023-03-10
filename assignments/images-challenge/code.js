@@ -91,8 +91,8 @@ const checkerBoard = (x) => {
 
 
 
-finalBoard2 = (x) => {
-    const maxHeight = Math.foor(height)
+const finalBoard2 = (x) => {
+    const maxHeight = Math.foor(height);
     for (let i =0; i < maxHeight; i++){
       drawFilledRect (width/2, height/2, (width/x), (height/x))
     }
