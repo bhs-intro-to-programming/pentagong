@@ -84,7 +84,7 @@ const checkerBoard = (x) => {
     
       drawFilledRect(((width - (x*y))/2)+y, 
       ((height+(x*y))/2)+i*y,y,y, 
-      (i+d) %2 === 0 ? 'black':'red')
+      (i) %2 === 0 ? 'black':'red')
    
   }    
 }
