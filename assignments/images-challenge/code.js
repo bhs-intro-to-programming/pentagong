@@ -95,7 +95,7 @@ const finalBoard2 = (x) => {
     const maxHeight = Math.floor(height);
     for (let i =0; i < maxHeight; i++){
       for (let d = 0; d < maxHeight; d++)
-      drawFilledRect (width/2, height/4, (width/x), (height/x), 
+      drawFilledRect (width/4, height/4, (width/x), (height/x), 
       i %2 === 0 ? 'black':'red')
     }
 }
