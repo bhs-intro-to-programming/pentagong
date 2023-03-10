@@ -94,7 +94,7 @@ const checkerBoard = (x) => {
 const finalBoard2 = (x) => {
     const maxHeight = Math.floor(height);
     for (let i =0; i < maxHeight; i++){
-      drawFilledRect (width/2, height/2, (width/x), (height/x))
+      drawFilledRect (width/2, height/2, (width/x), (height/x), (i+d) %2 === 0 ? 'black':'red'))
     }
 }
 
