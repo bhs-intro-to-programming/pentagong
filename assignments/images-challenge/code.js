@@ -89,7 +89,7 @@ const checkerBoard = (x) => {
   }    
 }
 
-checkerBoard (29)
+
 
 checkerBoard2 = (x) => {
     const maxHeight = Math.foor(height)
