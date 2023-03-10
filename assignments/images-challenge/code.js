@@ -25,40 +25,40 @@
  */
 
 const oneCircle = (size) => {
-  drawFilledCircle(width/2, height/1.4, size, 'black');
-  drawFilledCircle(width/3, height/1.4, size, 'black');
-  drawFilledCircle(width/6, height/1.4, size, 'black');
-  drawFilledCircle(width/1.5, height/1.4, size, 'black');
-  drawFilledCircle(width/1.2, height/1.4, size, 'black');
+  drawFilledCircle(width / 2, height / 1.4, size, 'black');
+  drawFilledCircle(width / 3, height / 1.4, size, 'black');
+  drawFilledCircle(width / 6, height / 1.4, size, 'black');
+  drawFilledCircle(width / 1.5, height / 1.4, size, 'black');
+  drawFilledCircle(width / 1.2, height / 1.4, size, 'black');
 }
 
 const forManyCirclesColors = (r) => {
-  const space = Math.floor (width/2*r);
-  for (let i=0; i<space; i++){
-    drawFilledCircle(((width-((space)*2*r))/2+r)+i*2*r,
-    height/4, r, i% 2=== 0 ? 'black':'green')
+  const space = Math.floor(width / 2 * r);
+  for (let i = 0; i < space; i++) {
+    drawFilledCircle(((width - ((space) * 2 * r)) / 2 + r) + i * 2 * r,
+      height / 4, r, i % 2 === 0 ? 'black' : 'green')
   }
 }
 const forManyCircles = (size) => {
-  const space = Math.floor (width/2*size);
-  for (let i=0; i<space; i++){
-    drawFilledCircle(((width-((space)*2*size))/2+size)+i*2*size,
-    height/2, size, 'black')
+  const space = Math.floor(width / 2 * size);
+  for (let i = 0; i < space; i++) {
+    drawFilledCircle(((width - ((space) * 2 * size)) / 2 + size) + i * 2 * size,
+      height / 2, size, 'black')
   }
 }
 
 const colorCircle = (size) => {
-  drawFilledCircle(width/2, height/3, size, 'red');
-  drawFilledCircle(width/3, height/3, size, 'black');
-  drawFilledCircle(width/6, height/3, size, 'red');
-  drawFilledCircle(width/1.5, height/3, size, 'black');
-  drawFilledCircle(width/1.2, height/3, size, 'red');
+  drawFilledCircle(width / 2, height / 3, size, 'red');
+  drawFilledCircle(width / 3, height / 3, size, 'black');
+  drawFilledCircle(width / 6, height / 3, size, 'red');
+  drawFilledCircle(width / 1.5, height / 3, size, 'black');
+  drawFilledCircle(width / 1.2, height / 3, size, 'red');
 }
 
 const whileManyCircles = (size, r) => {
   let i = 1;
-  while (i < width / size - 1){
-    drawFilledCircle(i * size, height/2, r, 'black')
+  while (i < width / size - 1) {
+    drawFilledCircle(i * size, height / 2, r, 'black')
     i++
   }
 }
@@ -71,24 +71,27 @@ const concentricCircles = (circles) => {
   const r = height / 2;
   const x = r / circles;
   for (let i = 0; i < circles; i++) {
-    drawFilledCircle(width / 2, height / 2, r * (circles - i)/circles,
-     i % 2 === 0 ? 'green' : 'black');
+    drawFilledCircle(width / 2, height / 2, r * (circles - i) / circles,
+      i % 2 === 0 ? 'green' : 'black');
   }
 };
 
 
 
 const checkerBoard = (x) => {
-  const y = Math.floor(height/x);
-  for (let i = 0; i < x; i++){
-    for (let d = 0; d < x; d++){
-      drawFilledRect(((width - (x*y))/2)+y*d, 
-      ((height+(x*y))/2)+i*y,y,y, 
-      (i+d) %2 === 0 ? 'black':'red')
-    }  
-  }    
+  const size = Math.floor(height / x);
+  for (let i = 0; i < x; i++) {
+    for (let d = 0; d < x; d++) {
+      drawFilledRect(
+        ((width - (x * size)) / 2) + size * d,
+        ((0 + (x * size)) / 2) + i * size, 
+        size, 
+        size,
+        (i + d) % 2 === 0 ? 'black' : 'red')
+    }
+  }
 }
 
-checkerBoard (29)
+checkerBoard(29)
 
 
