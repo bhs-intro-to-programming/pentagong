@@ -88,3 +88,5 @@ const checkerBoard = (x) => {
     }  
   }    
 }
+
+checkerBoard (30)
