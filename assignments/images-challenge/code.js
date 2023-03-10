@@ -91,12 +91,12 @@ const checkerBoard = (x) => {
 
 
 
-const finalBoard2 = (x) => {
+const finalBoard2 = (x,y) => {
     const maxHeight = Math.floor(height);
     for (let i =0; i < maxHeight; i++){
       for (let d = 0; d < maxHeight; d++)
-      drawFilledRect (width/4, height/4, (width/x), (height/x), 
-      i %2 === 0 ? 'black':'red')
+      drawFilledRect (width/4, height/4, (width/x), (height/x))
+      drawFilledCircle(width/4, height/4, y, 'white')
     }
 }
 
