@@ -71,7 +71,7 @@ const concentricCircles = (circles) => {
   const r = height / 2;
   const x = r / circles;
   for (let i = 0; i < circles; i++) {
-    drawFilledCircle(width / 2, height / 2, r * (4 - i)/4,
+    drawFilledCircle(width / 2, height / 2, r * (circles - i)/circles,
      i % 2 === 0 ? 'green' : 'black');
   }
 };
@@ -90,3 +90,12 @@ const checkerBoard = (x) => {
 }
 
 checkerBoard (29)
+
+checkerBoard2 = (x) => {
+    const maxHeight = Math.foor(height)
+    for (let i =0; i < maxHeight; i++){
+      drawFilledRect (width/2, height/2, (width/x), (height/x))
+    }
+}
+
+checkerBoard2 (2)
