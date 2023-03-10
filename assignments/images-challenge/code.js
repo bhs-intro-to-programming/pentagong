@@ -91,11 +91,11 @@ const checkerBoard = (x) => {
 
 
 
-checkerBoard2 = (x) => {
+finalBoard2 = (x) => {
     const maxHeight = Math.foor(height)
     for (let i =0; i < maxHeight; i++){
       drawFilledRect (width/2, height/2, (width/x), (height/x))
     }
 }
 
-checkerBoard2 (2)
+finalBoard2 (2)
