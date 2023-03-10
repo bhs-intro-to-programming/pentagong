@@ -81,12 +81,10 @@ const concentricCircles = (circles) => {
 const checkerBoard = (x) => {
   const y = Math.floor(height/x);
   for (let i = 0; i < x; i++){
-    for (let d = 0; d < x; d++){
       drawFilledRect(((width - (x*y))/2)+y*d, 
       ((height+(x*y))/2)+i*y,y,y, 
       (i+d) %2 === 0 ? 'black':'red')
-    }  
   }    
 }
 
-checkerBoard(190,50,70,80)
+checkerBoard(190)
