@@ -78,13 +78,13 @@ const concentricCircles = (circles) => {
 
 
 
-const checkerBoard = (x) => {
-  const size = Math.floor(height / x);
-  for (let i = 0; i < x; i++) {
-    for (let d = 0; d < x; d++) {
+const checkerBoard = (n) => {
+  const size = Math.floor(height / n);
+  for (let i = 0; i < n; i++) {
+    for (let d = 0; d < n; d++) {
       drawFilledRect(
-        ((width - (x * size)) / 2) + size * d,
-        ((-(height) + (x * size)) / 2) + i * size, 
+        ((width - (n * size)) / 2) + size * d,
+        ((-(height) + (n * size)) / 2) + i * size, 
         size, 
         size,
         (i + d) % 2 === 0 ? 'black' : 'red')
