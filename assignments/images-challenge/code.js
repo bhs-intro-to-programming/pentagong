@@ -97,7 +97,7 @@ const checkerBoard = (n) => {
 
 
 const notReallyCurved = (n) => {
-    const parts = n - 10;
+    const parts = n - 30;
     const size = height / 2;
     const distance = size / parts;
     for (let i = 0; i < size / distance; i++){
