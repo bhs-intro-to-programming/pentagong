@@ -104,4 +104,4 @@ const notReallyCurved = (n) => {
     }
 }
 
-notReallyCurved(60)
+notReallyCurved(3)
