@@ -93,5 +93,3 @@ const checkerBoard = (x) => {
 }
 
 checkerBoard(10)
-
-
