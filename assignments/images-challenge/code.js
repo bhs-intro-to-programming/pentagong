@@ -100,7 +100,7 @@ const notReallyCurved = (n) => {
     const distance = size / parts;
     for (let i = 0; i < size / distance; i++){
       drawLine (0, ((height-size)/2) + 3 * i * distance, 
-      i * distance, ((height-size)/2)+size)
+      i * distance, ((height-size)/2)+ 2 * size)
     }
 }
 
