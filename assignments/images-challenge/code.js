@@ -92,4 +92,15 @@ const checkerBoard = (n) => {
   }
 }
 
-checkerBoard(50)
+
+
+const notReallyCurved = (n) => {
+    const parts = n - 1;
+    const size = height / 2;
+    const distance = size / parts;
+    for (let i = 0; i < size / distance; i++){
+      drawLine (0, (height-size)/2, )
+    }
+}
+
+notReallyCurved(3)
