@@ -80,7 +80,7 @@ const concentricCircles = (circles) => {
 
 const checkerBoard = (n) => {
   const size = height / n;
-  for (let i = 0; i <= n; i++) {
+  for (let i = 0; i < n; i++) {
     for (let d = 0; d < n; d++) {
       drawFilledRect(
         ((width - (n * size)) / 2) + size * d,
@@ -92,7 +92,7 @@ const checkerBoard = (n) => {
   }
 }
 
-checkerBoard(3)
+
 
 
 
@@ -100,7 +100,7 @@ const notReallyCurved = (n) => {
     const parts = n - 1;
     const size = height / 2;
     const distance = size / parts;
-    for (let i = 0; i <= size / distance; i++){
+    for (let i = 0; i < size / distance; i++){
       drawLine (0, ((height-size)/2) + i * distance, 
       i * distance, ((height-size)/2)+size)
     }
