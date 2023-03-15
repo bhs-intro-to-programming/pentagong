@@ -1,6 +1,6 @@
 /*
- * This code is running in an environment the same as simple-draw. Thus you have
- * two variables that will be helpful.
+ * This code is running in an environment the same as simple-draw. 
+ * Thus you have two variables that will be helpful.
  *
  *  width - the width of the drawing area.
  *  height - the height of the drawing area.
@@ -100,11 +100,11 @@ const notReallyCurved = (n) =>{
     const size = height / 2;
     const distance = size / n;
     for (let i = 0; i < size / distance; i++){
-      drawLine (0, (height/4) + i * distance, 
+      drawLine (5, (height/4) + i * distance, 
       distance * i, ((height-size))+size)
     }
 }
 
 notReallyCurved(10)
 
- /* drawLine(x1, y1, x2, y2, color, lineWidth)*/
+/* drawLine(x1, y1, x2, y2, color, lineWidth)*/
