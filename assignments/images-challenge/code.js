@@ -122,6 +122,6 @@ const fill = (size) => {
 
 }
 
-fillWithCircles(10)
+fill(10)
 
  /*  drawCircle(x, y, radius, color, lineWidth=1)*/
