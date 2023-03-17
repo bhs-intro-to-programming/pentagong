@@ -102,14 +102,14 @@ const notReallyCurved = (n) =>{
     for (let i = 0; i < n; i++){
       drawLine (
         0, 
-        0 + i * distance, 
+        i * distance, 
         distance * i, 
         height
       );
     }
 }
 
-notReallyCurved(100)
+notReallyCurved(50)
 
 
 
