@@ -127,7 +127,8 @@ const someArtThatWasCreatedByMistake = (size) => {
  /*  drawCircle(x, y, radius, color, lineWidth=1)*/
 
  const fill = (size) => {
-    for (let i = 0; i<height; i++){
+   const distance = 2*size;
+    for (let i = 0; i<height-1; i++){
       drawCircle(i+size, i*size, size, 'red')
     }
 
