@@ -117,19 +117,21 @@ const notReallyCurved = (n) =>{
 
 const someArtThatWasCreatedByMistake = (size) => {
     for (let i = 0; i<height; i++){
-      drawCircle(i+size, i*size, size, 'red')
+      drawCircle(i+size, i*size, i*size, 'red')
     }
 
 }
 
-someArtThatWasCreatedByMistake(1)
+
 
  /*  drawCircle(x, y, radius, color, lineWidth=1)*/
 
  const fill = (size) => {
     for (let i = 0; i<height; i++){
-      drawCircle(i+size, i*size, i*size, 'red')
+      drawCircle(i+size, i*size, size, 'red')
     }
 
 }
+
+fill(10)
 
