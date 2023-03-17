@@ -129,7 +129,7 @@ const someArtThatWasCreatedByMistake = (size) => {
  const fill = (size) => {
    const distance = 2*size;
     for (let i = 0; i<height; i++){
-      drawCircle(i+size, i*size, size, 'red')
+      drawCircle(i+size, distance + size, size, 'red')
     }
 
 }
