@@ -104,7 +104,7 @@ const notReallyCurved = (n) =>{
         0, 
         height/2 + i * distance, 
         distance * i, 
-        ((height-size))+size)
+        height
     }
 }
 
