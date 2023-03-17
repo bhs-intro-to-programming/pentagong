@@ -122,7 +122,7 @@ const someArtThatWasCreatedByMistake = (size) => {
 
 }
 
-someArtThatWasCreatedByMistake(5)
+someArtThatWasCreatedByMistake(0)
 
  /*  drawCircle(x, y, radius, color, lineWidth=1)*/
 
