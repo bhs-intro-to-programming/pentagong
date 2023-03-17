@@ -105,6 +105,6 @@ const notReallyCurved = (n) =>{
     }
 }
 
-notReallyCurved(50)
+notReallyCurved(3)
 
 /* drawLine(x1, y1, x2, y2, color, lineWidth)*/
