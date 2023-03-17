@@ -97,7 +97,7 @@ const checkerBoard = (n) => {
 
 
 const notReallyCurved = (n) =>{ 
-    const size = height / 2;
+    const size = height;
     const distance = size / n;
     for (let i = 0; i < size / distance; i++){
       drawLine (0, (height/2) + i * distance, 
@@ -108,3 +108,7 @@ const notReallyCurved = (n) =>{
 notReallyCurved(10)
 
 /* drawLine(x1, y1, x2, y2, color, lineWidth)*/
+
+const fillWithCircles = (size) => {
+
+}
