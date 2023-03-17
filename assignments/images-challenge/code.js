@@ -110,7 +110,6 @@ const notReallyCurved = (n) =>{
 /* drawLine(x1, y1, x2, y2, color, lineWidth)*/
 
 const fillWithCircles = (size) => {
-    const count = height/size;
     for (let i = 0; i<height; i++){
       drawCircle(0+size, 0+size, 'red')
     }
