@@ -117,7 +117,7 @@ const notReallyCurved = (n) =>{
 
 const fill = (size) => {
     for (let i = 0; i<height; i++){
-      drawCircle(0+size, 0+size)
+      drawCircle(0+size, 0+size, size/2)
     }
 
 }
