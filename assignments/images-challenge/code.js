@@ -117,7 +117,7 @@ const notReallyCurved = (n) =>{
 
 const someArtThatWasCreatedByMistake = (size) => {
     for (let i = 0; i<height; i++){
-      drawCircle(i+size, i*size, i*size, 'red')
+      drawCircle(i+size, i*size, size, 'red')
     }
 
 }
