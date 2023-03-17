@@ -122,6 +122,15 @@ const someArtThatWasCreatedByMistake = (size) => {
 
 }
 
-someArtThatWasCreatedByMistake(10)
+someArtThatWasCreatedByMistake(30)
 
  /*  drawCircle(x, y, radius, color, lineWidth=1)*/
+
+ const fill = (size) => {
+    for (let i = 0; i<height; i++){
+      drawCircle(i+size, i*size, i*size, 'red')
+    }
+
+}
+
+fill(10)
