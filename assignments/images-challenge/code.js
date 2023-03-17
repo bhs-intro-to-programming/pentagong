@@ -115,13 +115,13 @@ const notReallyCurved = (n) =>{
 
 /* drawLine(x1, y1, x2, y2, color, lineWidth)*/
 
-const fill = (size) => {
+const someArtThatWasCreatedByMistake = (size) => {
     for (let i = 0; i<height; i++){
       drawCircle(i+size, i*size, i*size, 'red')
     }
 
 }
 
-fill(10)
+someArtThatWasCreatedByMistake(10)
 
  /*  drawCircle(x, y, radius, color, lineWidth=1)*/
