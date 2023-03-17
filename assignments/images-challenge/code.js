@@ -110,5 +110,13 @@ notReallyCurved(10)
 /* drawLine(x1, y1, x2, y2, color, lineWidth)*/
 
 const fillWithCircles = (size) => {
+    const count = height/size;
+    for (let i = 0; i<height; i++){
+      drawCircle(0+size, 0+size, 'red')
+    }
 
 }
+
+fillWithCircles(10)
+
+ /*  drawCircle(x, y, radius, color, lineWidth=1)*/
