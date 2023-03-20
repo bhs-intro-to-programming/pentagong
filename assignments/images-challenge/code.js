@@ -84,13 +84,14 @@ const checkerBoard = (n) => {
     for (let d = 0; d < n; d++) {
       drawFilledRect(
         ((width - (n * size)) / 2) + size * d,
-        ((-(height) + (n * size)) / 2) + i * size, 
+        (((height) - (n * size)) / 2) + i * size, 
         size, 
         size,
         (i + d) % 2 === 0 ? 'black' : 'red')
     }
   }
 }
+
 
 
 
@@ -130,7 +131,7 @@ const someArtThatWasCreatedByMistake = (size) => {
    const distance = 2*size;
     for (let i = 0; i<width; i++){
       for (let d=0; d<height; d++){
-      drawCircle(width-(2 * size), distance + 2*d*size, size, 'red')
+      drawCircle(width-(i * 2 * size), distance + 2*d*size, size, 'red')
       
     }
     }
