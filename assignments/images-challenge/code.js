@@ -144,9 +144,14 @@ const someArtThatWasCreatedByMistake = (size) => {
    const distance = 2*size;
     for (let i = 0; i<width; i++){
       for (let d=0; d<height; d++){
-      drawCircle(width-(i * 2 * size), height - (distance + 2*d*size)+1, size, Math.random(1.0))
-      
-    }
+      n = Math.Random();
+      if (n<0){  
+      drawCircle(width-(i * 2 * size), height - (distance + 2*d*size)+1, size)
+      }
+      else{
+        drawFilledCircle(width-(i * 2 * size), height - (distance + 2*d*size)+1, size)
+      }
+      }
     }
 
 }
