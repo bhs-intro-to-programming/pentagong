@@ -137,5 +137,5 @@ const someArtThatWasCreatedByMistake = (size) => {
 
 }
 
-fill(20)
+fill(10)
 
