@@ -138,9 +138,9 @@ const someArtThatWasCreatedByMistake = (size) => {
 
 }
 
-random(10)
 
- const fill = (size) => {
+
+ const random = (size) => {
    const distance = 2*size;
     for (let i = 0; i<width; i++){
       for (let d=0; d<height; d++){
