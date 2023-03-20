@@ -138,5 +138,17 @@ const someArtThatWasCreatedByMistake = (size) => {
 
 }
 
-fill(10)
+fillRandom(10)
 
+ const fill = (size) => {
+   const distance = 2*size;
+    for (let i = 0; i<width; i++){
+      for (let d=0; d<height; d++){
+      drawCircle(width-(i * 2 * size), height - (distance + 2*d*size)+1, size, 'red')
+      
+    }
+    }
+
+}
+
+fillRandom(10)
