@@ -138,7 +138,7 @@ const someArtThatWasCreatedByMistake = (size) => {
 
 }
 
-fillRandom(10)
+random(10)
 
  const fill = (size) => {
    const distance = 2*size;
@@ -151,4 +151,4 @@ fillRandom(10)
 
 }
 
-fillRandom(10)
+random(10)
