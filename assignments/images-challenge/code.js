@@ -147,11 +147,11 @@ const someArtThatWasCreatedByMistake = (size) => {
         for (let n = 0; n <1; n++)
       if (Math.random() < n){  
       drawCircle(width-(i * 2 * size), 
-      height - (distance + 2*i*size)+1, size, 'red')
+      height - (distance + 2*d*size)+1, size, 'red')
       }
       else{
         drawFilledCircle(width-(i * 2 * size), 
-      height - (distance + 2*i*size)+1, size, 'red')
+      height - (distance + 2*d*size)+1, size, 'red')
       }}
 }
  }
