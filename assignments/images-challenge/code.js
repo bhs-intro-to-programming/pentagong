@@ -98,8 +98,8 @@ const checkerBoard = (n) => {
 
 
 const notReallyCurved = (n) =>{ 
-    const size = height;
-    const distance = size / n;
+    
+    const distance = height / n;
     for (let i = 0; i < n; i++){
       drawLine (
         0, 
