@@ -140,6 +140,8 @@ const someArtThatWasCreatedByMistake = (size) => {
 
 }
 
+fill(10)
+
 
 
  const randomFill = (size) => {
@@ -160,4 +162,4 @@ const someArtThatWasCreatedByMistake = (size) => {
 }
  }
 
-randomFill(10)
+
