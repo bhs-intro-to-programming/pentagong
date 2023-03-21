@@ -144,8 +144,8 @@ const someArtThatWasCreatedByMistake = (size) => {
    const distance = 2*size;
    const h = Math.floor(height/size)
    const w = Math.floor(width/size)
-    for (let i = 0; i<h; i++){
-      for (let d=0; d<w; d++){
+    for (let i = 0; i<w; i++){
+      for (let d=0; d<h; d++){
         for (let n = 0; n <1; n++)
       if (Math.random() < n){  
       drawCircle(width-(i * 2 * size), 
