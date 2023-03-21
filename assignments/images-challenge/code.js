@@ -142,7 +142,6 @@ const someArtThatWasCreatedByMistake = (size) => {
 
  const randomFill = (size) => {
    const distance = 2*size;
-   const n = Math.random();
     for (let i = 0; i<width; i++){
       for (let d=0; d<height; d++){
       for (let n=Math.random; n<height; n++){
