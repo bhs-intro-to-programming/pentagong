@@ -151,7 +151,7 @@ const someArtThatWasCreatedByMistake = (size) => {
       else{
         drawFilledCircle(width-(i * 2 * size), 
       height - (distance + 2*d*size)+1, size, 'red')
-      }
+      }}
 }
  }
 
