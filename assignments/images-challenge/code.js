@@ -133,7 +133,7 @@ const fill = (size) => {
   const distance = 2 * size;
   for (let i = 0; i < w; i++) {
     for (let j = 0; j < h; j++) {
-      drawCircle(width - 1 - (i * distance), 
+      drawCircle(3*width - (i * distance), 
       height - (j * distance), size, 'red')
 
     }
