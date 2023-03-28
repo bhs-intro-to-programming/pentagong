@@ -167,10 +167,11 @@ const fill = (size) => {
   const h = Math.floor(height / (2*size));
   const w = Math.floor(width / (2*size));
   const distance = 2 * size;
+  const t = Math.random
   for (let i = 0; i < w; i++) {
     for (let j = 0; j < h; j++) {
       for (let t =0; t < h; t++){
-        const t = Math.random
+        
       }
       if (t < 0.5){
       drawCircle(width - (i * distance)-size, 
