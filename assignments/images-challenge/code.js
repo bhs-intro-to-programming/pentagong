@@ -170,7 +170,7 @@ const fill = (size) => {
   for (let i = 0; i < w; i++) {
     for (let j = 0; j < h; j++) {
       for (let t =0; t < h; t++){
-        t = Math.random
+        let t = Math.random
       }
       if (t < 0.5){
       drawCircle(width - (i * distance)-size, 
