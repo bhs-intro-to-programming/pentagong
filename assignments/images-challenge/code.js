@@ -163,25 +163,24 @@ fill(10)
  
  
  
- 
- 
- 
- const randomFill = (size) => {
-   const distance = 2*size;
-   const h = Math.floor(height/size)
-   const w = Math.floor(width/size)
-    for (let i = 0; i<w; i++){
-      for (let d=0; d<h; d++){
-        for (let n = 0; n <1; n++)
-      if (Math.random() < n){  
-      drawCircle(width-(i * 2 * size), 
-      height - (distance + 2*d*size)+1, size, 'red')
+ const fillColor = (size) => {
+  const h = Math.floor(height / (2*size));
+  const w = Math.floor(width / (2*size));
+  const distance = 2 * size;
+  for (let i = 0; i < w; i++) {
+    for (let j = 0; j < h; j++) {
+      for (let t =0; t < h; t++){
+        t = Math.random
       }
-      else{
-        drawFilledCircle(width-(i * 2 * size), 
-      height - (distance + 2*d*size)+1, size, 'red')
-      }}
+      drawCircle(width - (i * distance)-size, 
+      height - (j * distance)-size, size, 'red')
+
+    }
+  }
+
 }
- }
+ 
+ 
+
 
 
