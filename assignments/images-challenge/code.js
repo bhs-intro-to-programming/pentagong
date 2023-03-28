@@ -172,8 +172,14 @@ const fill = (size) => {
       for (let t =0; t < h; t++){
         t = Math.random
       }
+      if (t < 0.5){
       drawCircle(width - (i * distance)-size, 
+      height - (j * distance)-size, size, 'red')}
+
+      else{
+        drawFilledCircle(width - (i * distance)-size, 
       height - (j * distance)-size, size, 'red')
+      }
 
     }
   }
