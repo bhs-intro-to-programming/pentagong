@@ -163,7 +163,7 @@ const fill = (size) => {
  
  
  
- const fillColor = (size) => {
+ const fillColor = (size, t) => {
   const h = Math.floor(height / (2*size));
   const w = Math.floor(width / (2*size));
   const distance = 2 * size;
