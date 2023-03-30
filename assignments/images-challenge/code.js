@@ -183,7 +183,7 @@ const fill = (size) => {
 
 }
 
-fillColor(10, 0.9)
+fillColor(10, 0.5)
  
  
 
