@@ -3,7 +3,7 @@ const countTens = (numbers) => {
   for(let i = 0; i < numbers; i++){
     if (numbers === 10)
     {
-      count++
+      tens++
     }
   }
 }
