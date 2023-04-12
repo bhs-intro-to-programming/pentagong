@@ -5,4 +5,5 @@ const countTens = (numbers) => {
       tens++
     }
   }
+  return tens
 }
