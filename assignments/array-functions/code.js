@@ -8,25 +8,26 @@ const countTens = (numbers) => {
   return tens
 }
 
-const sum =(numbers) => {
+const sum = (numbers) => {
   let result = 0
-  for (let i = 0; i < numbers.length; i++){
-     result = result + numbers[i]
+  for (let i = 0; i < numbers.length; i++) {
+    result = result + numbers[i]
   }
   return result
 }
 
-const evens = ( numbers) => {
+const evens = (numbers) => {
 
 }
 
-const anyOverOneHundred = (numbers) =>{
-for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] >100 && []) {
-    return true  
+const anyOverOneHundred = (numbers) => {
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > 100) {
+      return true
     }
-    else{
+    else {
       return false
     }
   }
-  }
+  return false
+}
