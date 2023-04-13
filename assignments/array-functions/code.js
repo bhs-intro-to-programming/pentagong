@@ -7,3 +7,10 @@ const countTens = (numbers) => {
   }
   return tens
 }
+
+const sum =(numbers) => {
+  let sums = 0
+  for (let i = 0; i < numbers.length; i++){
+     result = sums + numbers[i]
+  }
+}
