@@ -41,7 +41,7 @@ const pyramid = (numbers) => {
   const array = []
   for (let i = 1; i < numbers + i; i++){
     for (let j = 1; j < i; j++){
-      return array.push(numbers[i])
+      return array.push(i)
     }
   }
 }
