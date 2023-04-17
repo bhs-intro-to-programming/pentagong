@@ -44,4 +44,5 @@ const pyramid = (numbers) => {
       return array.push(i)
     }
   }
+  return array
 }
