@@ -14,8 +14,12 @@ const swapFrontAndBack = (string) => {
   return string.substring(string.length/2) + string.substring(0,string.length/2)
 }
 
-const simplePigLatin = (word) => {
-  const v = word.search(/[aeiou]/);
-  return word.substring(v) + word.match(/[^aeiou]+/) 
+const simplePigLatin = (string) => {
+  const v = string.search(/[aeiou]/);
+  return string.substring(v) + string.match(/[^aeiou]+/) 
   + 'ay'
+}
+
+const isAllUpperCase = (string) => {
+  
 }
