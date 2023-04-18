@@ -5,3 +5,7 @@ const findFnord = (string) => {
 const stringContains = (string1, string2) => {
   return (string1.indexOf(string2)) > -1
 }
+
+const firstAndLast = (string) => {
+  
+}
