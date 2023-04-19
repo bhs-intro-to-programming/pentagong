@@ -25,6 +25,6 @@ const isAllUpperCase = (string) => {
   return /^[A-Z]*$/.test(string)
 }
 
-sameIgnoringCase = (string1, string2) => {
+const sameIgnoringCase = (string1, string2) => {
 
 }
