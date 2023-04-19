@@ -33,3 +33,7 @@ const sameIgnoringCase = (string1, string2) => {
       return false
     }
 }
+
+const firstHalf = (string) => {
+  
+}
