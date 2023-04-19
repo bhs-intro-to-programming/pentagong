@@ -16,7 +16,7 @@ const swapFrontAndBack = (string) => {
 
 const simplePigLatin = (string) => {
   const v = string.search(/[aeiou]/);
-  return string.substring(v) + string.match(/^[^aeiou]+/) 
+  return string.substring(v) + string.match(/[^aeiou]+/) 
   + 'ay'
 }
 
