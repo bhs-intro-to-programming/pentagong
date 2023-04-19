@@ -26,5 +26,10 @@ const isAllUpperCase = (string) => {
 }
 
 const sameIgnoringCase = (string1, string2) => {
-
+    if (string1 == string2){
+      return true
+    }
+    else {
+      return false
+    }
 }
