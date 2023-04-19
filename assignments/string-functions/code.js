@@ -35,5 +35,5 @@ const sameIgnoringCase = (string1, string2) => {
 }
 
 const firstHalf = (string) => {
-  
+  return string/2
 }
