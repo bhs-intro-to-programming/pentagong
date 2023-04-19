@@ -37,3 +37,7 @@ const sameIgnoringCase = (string1, string2) => {
 const firstHalf = (string) => {
   return string.substring(0, string.length/2)
 }
+
+const secondHalf = (string) =>{
+  return string.substring(string.length/2)
+}
