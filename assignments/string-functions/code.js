@@ -47,5 +47,5 @@ const upDown = (string) => {
 }
 
 const everyOther = (string) => {
-  return string.substring(1,1) + string.substring(3) + string.substring(5)
+  return string.substring(0,0) + string.substring(3) + string.substring(5)
 }
