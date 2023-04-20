@@ -67,5 +67,5 @@ const concatenate = (string1, string2) => {
 }
 
 const firstCharacter = (string) => {
-  
+  return string.substring(string.length-1)
 }
