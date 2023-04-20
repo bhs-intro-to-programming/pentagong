@@ -1,3 +1,3 @@
-const getX = (str) => {
-  return str.replace(/\D/g, "")
+const getX = (object) => {
+  return object.substring(4)
 }
