@@ -71,5 +71,5 @@ const firstCharacter = (string) => {
 }
 
 const lastCharacter = (string) => {
-  string.substring(string.length - 1)
+  return string.substring(string.length - 1)
 }
