@@ -89,3 +89,7 @@ const allButFirstAndList = (string) => {
 const lastThree = (string) => {
   return string.substring (string.length - 3)
 }
+
+const capitalize = (string) => {
+  
+}
