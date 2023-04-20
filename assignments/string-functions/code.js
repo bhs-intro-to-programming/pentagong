@@ -55,5 +55,5 @@ const upDownLastCharacter = (string) => {
 }
 
 const firstName = (string) => {
-  
+  return string/2
 }
