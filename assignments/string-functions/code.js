@@ -62,6 +62,6 @@ const lastName = (string) => {
   return string.substring(string.indexOf(' ')+1)
 }
 
-const concatenate = (string) => {
-  
+const concatenate = (string1, string2) => {
+  return string1 + string2
 }
