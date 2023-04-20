@@ -1,3 +1,3 @@
-const getX = (object) => {
+const getX = (str) => {
   return str.replace(/\D/g, "")
 }
