@@ -49,3 +49,7 @@ const upDown = (string) => {
 const everyOther = (string) => {
   return string.substring(0,1) + string.substring(2,3) + string.substring(4,5)
 }
+
+const upDownLastCharacter = (string) => {
+  
+}
