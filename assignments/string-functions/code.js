@@ -83,5 +83,5 @@ const firstThree = (string) => {
 }
 
 const allButFirstAndList = (string) => {
-  return string.substring(1) + string.substring()
+  return string.substring(1) + string.substring(-string.length-1)
 }
