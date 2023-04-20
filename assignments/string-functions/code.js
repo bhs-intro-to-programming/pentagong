@@ -77,3 +77,7 @@ const lastCharacter = (string) => {
 const allButFirst = (string) => {
   return string.substring (1)
 }
+
+const firstThree = (string) => {
+  
+}
