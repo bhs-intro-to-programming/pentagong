@@ -59,5 +59,5 @@ const firstName = (string) => {
 }
 
 const lastName = (string) => {
-  return string.substring(string.indexOf(' ')-1)
+  return string.substring(string.indexOf(' ')+1)
 }
