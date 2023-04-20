@@ -91,5 +91,5 @@ const lastThree = (string) => {
 }
 
 const capitalize = (string) => {
-  
+  string.toUpperCase(0)
 }
