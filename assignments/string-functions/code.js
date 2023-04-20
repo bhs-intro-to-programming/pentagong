@@ -51,5 +51,5 @@ const everyOther = (string) => {
 }
 
 const upDownLastCharacter = (string) => {
-  return string.substring(string.length -1)+ toUpperCase.string.substring(string.length-1)
+  return string.substring(string.length -1)+ string.toUpperCase(string.substring(string.length -1))
 }
