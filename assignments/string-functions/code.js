@@ -53,3 +53,7 @@ const everyOther = (string) => {
 const upDownLastCharacter = (string) => {
   return string.substring(string.length -1).toUpperCase(string.substring(string.length -1))+string.substring(string.length -1) 
 }
+
+const firstName = (string) => {
+  
+}
