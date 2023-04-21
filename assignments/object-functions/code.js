@@ -32,5 +32,5 @@ const newHighScore = (hs, po) => {
 }
 
 const summarizeBooks = (array) => {
-  
+  return array['title']
 }
