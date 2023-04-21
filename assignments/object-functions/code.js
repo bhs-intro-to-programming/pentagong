@@ -30,3 +30,7 @@ const sumSalaries = (array) => {
 const newHighScore = (hs, po) => {
 
 }
+
+const summarizeBooks = (array) => {
+  
+}
