@@ -33,10 +33,10 @@ const newHighScore = (hs, po) => {
     if(po[i].score > highScore){
       highScore = po[i].score
     }
-    return highScore
+    
   }
 
-
+return highScore
   
 }
 
