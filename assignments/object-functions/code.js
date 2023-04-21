@@ -22,7 +22,7 @@ const midpoint = (p1, p2) => {
 const sumSalaries = (array) => {
   let sum = 0;
   for(let i = 0; i < array.length; i++){
-    return sum = array[i].salary
+    return sum = array[i]
   }
   return sum
 }
@@ -32,5 +32,5 @@ const newHighScore = (hs, po) => {
 }
 
 const summarizeBooks = (array) => {
-  return array['title']
+
 }
