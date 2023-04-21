@@ -43,7 +43,7 @@ return highScore
 const summarizeBooks = (array) => {
   let pages = 0
   for(let i = 0; i < array.length; i++){
-    sum += array[i].pages 
+    pages += array[i].pages 
   }
   return pages
 }
