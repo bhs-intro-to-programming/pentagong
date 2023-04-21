@@ -24,11 +24,11 @@ const sumSalaries = (array) => {
   for(let i = 0; i < array.length; i++){
     return sum = array[i].salary
   }
-  return sum
 }
 
 const newHighScore = (hs, po) => {
-
+  let highScore = 0
+  for(let i = 0; i < )
 }
 
 const summarizeBooks = (array) => {
