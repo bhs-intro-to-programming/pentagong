@@ -41,12 +41,5 @@ return highScore
 }
 
 const summarizeBooks = (array) => {
-  return '{
-  "titles": [
-    "Flobby Bird Flies Again",
-    "Off by One",
-    "Nerd Jokes and Puns",
-    "Intro to Programming"
-  ],
-  "pages": 424'
+  
 }
