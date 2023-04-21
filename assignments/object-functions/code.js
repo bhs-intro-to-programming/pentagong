@@ -31,7 +31,7 @@ const newHighScore = (hs, po) => {
   let highScore = hs
   for(let i = 0; i < po.length; i++){
     if(po.score > highScore){
-      highScore = po.score[i]
+      highScore = po.score[i].score
     }
     return highScore
   }
