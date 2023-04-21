@@ -24,4 +24,5 @@ const sumSalaries = (array) => {
   for(let i = 0; i < array.length; i++){
     sum = sum + array.length
   }
+  return sum
 }
