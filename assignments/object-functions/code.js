@@ -28,7 +28,7 @@ const sumSalaries = (array) => {
 
 const newHighScore = (hs, po) => {
   let highScore = 0
-  for(let i = 0; i < )
+  
 }
 
 const summarizeBooks = (array) => {
