@@ -43,6 +43,6 @@ return highScore
 const summarizeBooks = (array) => {
   const s = {title:[], pages:0}
   for(let i = 0; i < s.length; i++){
-    const b = books[i]
+    const b = s[i]
   }
 }
