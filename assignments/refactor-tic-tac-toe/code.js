@@ -54,7 +54,7 @@ const lines = [
   [[2, 0], [1, 1], [0, 2]],
 ];
 
-// Draw the board
+drawBoard = (draw) =>{
 const x1 = boardLeft + size;
 const x2 = boardLeft + 2 * size;
 const y1 = boardTop + size;
@@ -62,7 +62,7 @@ const y2 = boardTop + 2 * size;
 drawLine(x1, boardTop, x1, boardTop + boardSize, 'grey', 2);
 drawLine(x2, boardTop, x2, boardTop + boardSize, 'grey', 2);
 drawLine(boardLeft, y1, boardLeft + boardSize, y1, 'grey', 2);
-drawLine(boardLeft, y2, boardLeft + boardSize, y2, 'grey', 2);
+drawLine(boardLeft, y2, boardLeft + boardSize, y2, 'grey', 2);}
 
 registerOnclick((x, y) => {
 
