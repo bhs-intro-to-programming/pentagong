@@ -62,7 +62,9 @@ const y2 = boardTop + 2 * size;
 drawLine(x1, boardTop, x1, boardTop + boardSize, 'grey', 2);
 drawLine(x2, boardTop, x2, boardTop + boardSize, 'grey', 2);
 drawLine(boardLeft, y1, boardLeft + boardSize, y1, 'grey', 2);
-drawLine(boardLeft, y2, boardLeft + boardSize, y2, 'grey', 2);}
+drawLine(boardLeft, y2, boardLeft + boardSize, y2, 'grey', 2);
+return draw
+}
 
 registerOnclick((x, y) => {
 
