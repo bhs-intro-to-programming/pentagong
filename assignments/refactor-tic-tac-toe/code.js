@@ -27,9 +27,8 @@
 const boardSize = Math.min(width, height) * 0.75;
 const boardLeft = (width - boardSize) / 2;
 const boardTop = (height - boardSize) / 2;
-const cellSize = boardSize / 3;
-const fontSize = boardSize / 3;
-const lineEndAdjustment = cellSize * 0.7;
+const size = boardSize / 3;
+const lineEndAdjustment = size * 0.7;
 
 let move = 0;
 
@@ -56,10 +55,10 @@ const lines = [
 ];
 
 // Draw the board
-const x1 = boardLeft + cellSize;
-const x2 = boardLeft + 2 * cellSize;
-const y1 = boardTop + cellSize;
-const y2 = boardTop + 2 * cellSize;;
+const x1 = boardLeft + size;
+const x2 = boardLeft + 2 * size;
+const y1 = boardTop + size;
+const y2 = boardTop + 2 * size;;
 drawLine(x1, boardTop, x1, boardTop + boardSize, 'grey', 2);
 drawLine(x2, boardTop, x2, boardTop + boardSize, 'grey', 2);
 drawLine(boardLeft, y1, boardLeft + boardSize, y1, 'grey', 2);
@@ -87,18 +86,18 @@ registerOnclick((x, y) => {
     }
   }
 
-  r = Math.floor((y - boardTop) / cellSize);
-  c = Math.floor((x - boardLeft) / cellSize);
+  r = Math.floor((y - boardTop) / size);
+  c = Math.floor((x - boardLeft) / size);
 
   // Only do anything if it's a legal move and the game isn't over.
   if (winner === null && 0 <= r && r < 3 && 0 <= c && c < 3 && board[r][c] === '') {
 
     // Draw the mark and record the move
     const marker = move % 2 === 0 ? 'X' : 'O';
-    const x = boardLeft + c * cellSize + cellSize / 2;
-    const y = boardTop + r * cellSize + cellSize / 2;
-    const nudge = marker === 'O' ? cellSize / 9 : cellSize / 19;
-    drawText(marker, x - (fontSize * 0.3 + nudge), y + fontSize * 0.3, 'black', fontSize);
+    const x = boardLeft + c * size + size / 2;
+    const y = boardTop + r * size + size / 2;
+    const nudge = marker === 'O' ? size / 9 : size / 19;
+    drawText(marker, x - (size * 0.3 + nudge), y + size * 0.3, 'black', size);
     board[r][c] = marker;
     move++;
 
@@ -123,10 +122,10 @@ registerOnclick((x, y) => {
       const [r1, c1] = winner[0];
       const [r2, c2] = winner[winner.length - 1];
 
-      const x1 = boardLeft + c1 * cellSize + cellSize / 2;
-      const y1 = boardTop + r1 * cellSize + cellSize / 2;
-      const x2 = boardLeft + c2 * cellSize + cellSize / 2;
-      const y2 = boardTop + r2 * cellSize + cellSize / 2;
+      const x1 = boardLeft + c1 * size + size / 2;
+      const y1 = boardTop + r1 * size + size / 2;
+      const x2 = boardLeft + c2 * size + size / 2;
+      const y2 = boardTop + r2 * size + size / 2;
 
       let adjX1 = x1;
       let adjX2 = x2;
