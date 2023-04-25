@@ -122,7 +122,7 @@ registerOnclick((x, y) => {
       const [r1, c1] = winner[0];
       const [r2, c2] = winner[winner.length - 1];
 
-      const x1 = boardLeft + c1 * size + size / 2;
+      const x1 = boardLeft + c1 * 2(size) / 2;
       const y1 = boardTop + r1 * size + size / 2;
       const x2 = boardLeft + c2 * size + size / 2;
       const y2 = boardTop + r2 * size + size / 2;
