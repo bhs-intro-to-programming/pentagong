@@ -34,9 +34,7 @@ const lineEndAdjustment = cellSize * 0.7;
 let move = 0;
 
 const board = [
-  ['', '', ''],
-  ['', '', ''],
-  ['', '', ''],
+  ['', '', '']*3
 ];
 
 const lines = [
